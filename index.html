@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animais</title>
+
+    <style>
+        .mensagem-erro {
+            color: #060606; /* Altere para a cor desejada */
+            font-size: 16px; /* Opcional: Definir o tamanho da fonte */
+            font-weight: bold; /* Opcional: Tornar o texto em negrito */
+            font-family:  sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curiosidade Animal</h1>
+    </header>
+    <main>
+      <section>
+         <input type="text" placeholder="Pesquise um animal " id="campo-pesquisa">
+         <button onclick="pesquisar()">Pesquisar</button>
+         <div id="mensagem-erro" class="mensagem-erro"></div> 
+       </section>
+       <section class="resultados-pesquisa" 
+       id ="resultados-pesquisa">
+       </section>
+    <section class="lista">
+        <h2>Animais disponíveis para pesquisa:</h2>
+        <ul id="animalList">
+            <li>Coala</li>
+            <li>Texugo do Mel</li>
+            <li>Camaleão</li>
+            <li>Tamanduá-mirim</li>
+        </ul>
+       </section> 
+
+    </main>
+    <footer>
+        <p>2024 - Curiosidade Animal. Todos os direitos reservados</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
