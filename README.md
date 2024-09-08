@@ -1,7 +1,7 @@
 ### :interrobang:Curiosidade Animal:interrobang: - Imersão Dev com Google Gemini
 ##
 
-Esse é um projetinho bem simples que desenvolvi, através da minha aprendizagem
+Esse é um projetinho bem simples, em que você pode fazer pesquisa sobre um determinado animal, desenvolvi através da minha aprendizagem
 durante a imersão dev na Alura com o Google Gemini. Amei participar, achei muito
 intuitivo e enriquecedor.
 
